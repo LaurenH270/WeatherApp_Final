@@ -98,3 +98,9 @@ h3 {
 #city-input {
   width: 350px;
 }
+
+#footer {
+  text-align: center;
+  color: grey;
+  font-size: 14px;
+}
