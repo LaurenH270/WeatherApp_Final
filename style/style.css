@@ -1,0 +1,100 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(116, 203, 199) 0%,
+    rgb(220, 246, 200) 90%
+  );
+}
+
+.container {
+  background-color: #eef2e2;
+  border: solid 1px;
+  border-radius: 10px;
+  min-width: 700px;
+  max-width: 700px;
+  padding: 30px;
+  margin: 200px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+input {
+  border-radius: 5px;
+  background-color: ivory;
+  border-color: #dedede;
+  width: 400px;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 60px;
+  position: relative;
+  left: 40px;
+  top: 15px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  max-width: 180px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background-color: ivory;
+}
+
+.weekly-text {
+  font-family: "Roboto", sans-serif;
+  margin: 10px auto;
+}
+.temp {
+  font-size: 25px;
+  position: relative;
+  left: 40px;
+  margin-bottom: 10px;
+}
+
+.units {
+  position: relative;
+  left: 50px;
+}
+
+.daily-weather-icon {
+  font-size: 30px;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 50%;
+  border-color: #dedede;
+  padding: 30px;
+  margin: 10px;
+  background-color: ivory;
+}
+
+.day-name {
+  margin: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.daily-temp {
+  margin: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+#submit-button {
+  width: 40px;
+}
+#city-input {
+  width: 350px;
+}
